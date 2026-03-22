@@ -1,15 +1,17 @@
+//Type conversion in js
+
 let score = "33" //String
 // let score = 33 //Integer or number
 
 
 //to see which datatype they belong to
-console.log(typeof score);
+// console.log(typeof score);
 // console.log(typeof (score)); //as a method
 
 //ALL SCENARIOS WITH THIS IN MIND-> type convert from String to Numbers - if you are sure that you are going to do operations on numbers only but get input as string
 
 let valueInNumber  = Number(score)
-console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);
 
 // if we have value as "33abcxyz" instead of 33
 // console.log(valueInNumber); -> we get NaN(not a number) but it's type is number
@@ -25,11 +27,16 @@ console.log(typeof valueInNumber);
 let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 //empty string = false
 //random string = true
 
 //Number back to String
 let stringNumber = String(valueInNumber)
-console.log(stringNumber)
+// console.log(stringNumber)
+
+//String to Number conversion
+let value =3
+let negativeValue = -value;
+console.log(negativeValue)
