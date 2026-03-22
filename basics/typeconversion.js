@@ -19,3 +19,13 @@ console.log(typeof valueInNumber);
 //if we put undefined then it gives NaN again
 
 //if we give boolean value then it gives 0(false) and 1(true)
+
+
+//IF We try to convert 1/0 into boolean
+let isLoggedIn = 1
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn)
+
+//empty string = false
+//random string = true
