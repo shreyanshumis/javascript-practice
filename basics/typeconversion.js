@@ -39,7 +39,7 @@ let stringNumber = String(valueInNumber)
 //String to Number conversion
 let value =3
 let negativeValue = -value;
-console.log(negativeValue)
+// console.log(negativeValue)
 
 // ** operation for power -> 2**3 = 8
 
@@ -51,8 +51,20 @@ let str2 = " hitesh"
 let str3 = str1+str2;
 
 //Problems with String and number concat/add
-console.log("1"+ 2); //12
-console.log(1 + "2"); //12
-console.log("1" + "2"); //12
-console.log("1" + 2 + 2);//122
-console.log(1 + 2 + "2");//32
+// console.log("1"+ 2); //12
+// console.log(1 + "2"); //12
+// console.log("1" + "2"); //12
+// console.log("1" + 2 + 2);//122
+// console.log(1 + 2 + "2");//32
+
+//Not recommended -but output of this is
+console.log(+true) //output == 1
+// console.log(true+) //error
+
+console.log(+""); //output 0
+
+//prefix and postfix operator
+let gameCounter = 100
+gameCounter++;
+++gameCounter;
+console.log(gameCounter);
