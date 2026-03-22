@@ -29,3 +29,7 @@ console.log(booleanIsLoggedIn)
 
 //empty string = false
 //random string = true
+
+//Number back to String
+let stringNumber = String(valueInNumber)
+console.log(stringNumber)
