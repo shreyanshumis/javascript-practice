@@ -4,6 +4,8 @@
 // console.log(2 == 1);
 // console.log(1 != 1);
 
+//AVOID THESE CONVERSIONS AT ALL COSTS
+
 console.log("2" > 1); //true (datatype converts to number)
 console.log("02" > 1); //true (datatype converts to number)
 
