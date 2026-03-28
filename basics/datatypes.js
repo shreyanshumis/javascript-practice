@@ -4,10 +4,6 @@
 
 //7 Types: String, Number, Bool, null, undefined, Symbol, BigInt
 
-//Reference Types(Non Primitives) - call by reference
-
-//Arrays, Objects, Functions
-
 const score =  100
 // const score:number =100 <- typescript syntax(for type safety)
 const scoreValue =  100.3
@@ -21,9 +17,13 @@ const id = Symbol('123') //symbols
 const newId = Symbol('123')
 //their value will be different despite them looking the same. the return value is different
 
-const bigNumber = 12343249328493n //bigint
+const bigNumber = 12343249328493n //n denotes bigint
 
 //-----------
+
+//Reference Types(Non Primitives) - call by reference
+
+//Arrays, Objects, Functions
 const heroes = ["Hero1", "Hero2", "Hero3"]//array
 
 let myObj = {
@@ -33,7 +33,7 @@ let myObj = {
 
 const myFunc = function(){
     console.log("Hello world");
-} //function
+} //function -> returns function object
 
 //---------MEMORY----------
 //2 types - stack and heap
