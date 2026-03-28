@@ -1,4 +1,4 @@
-//Js is dynamically typed
+//Js is a dynamically typed language
 
 //Primitives Types - they're call by value
 
@@ -9,11 +9,13 @@
 //Arrays, Objects, Functions
 
 const score =  100
+// const score:number =100 <- typescript syntax(for type safety)
 const scoreValue =  100.3
 
 const isLoggedIn = false
-const temp = null
-let userEmail;
+const outsideTemp = null //null is not 0, it is empty
+let userEmail; //this will be assigned undefined
+// let userEmail = undefined //this also works
 
 const id = Symbol('123') //symbols
 const newId = Symbol('123')
