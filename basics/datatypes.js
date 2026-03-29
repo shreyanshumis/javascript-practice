@@ -55,11 +55,13 @@ let user = {
     upi: "user@payhey"
 }
 
+console.log(user);
+
 let user2 = user
 //This time you're getting the reference NOT the copy of the same
 // the value in the original will change if u make changes in the 2nd one(user2)
 
 user2.email = "anshu@hey.com"
-
+//printing after modification
 console.log(user);
 console.log(user2);
