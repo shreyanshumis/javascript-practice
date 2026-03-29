@@ -38,26 +38,26 @@ const myFunc = function(){
 //---------MEMORY----------
 //2 types - stack and heap
 
-//Primitive type - Stack memory(call by value)
-//Non Primitive type - heap memory(call by reference)
+//Primitive type - uses Stack memory(call by value)
+//Non Primitive type - uses heap memory(call by reference)
 
 //Call by Value :-
-
 let myName = "shrey"
 let newName = myName
 console.log(newName);
 newName = "anshu"
-//newName's value changed but myName's didn't cuz it's copy was given to newName and not the reference itself.
+//newName's value changed but myName's didn't, why? 
+//cuz it's copy was given to newName and not the reference itself.
 
 //Call by Reference :-
-
 let user = {
     email:"user@hey.com",
     upi: "user@payhey"
 }
 
 let user2 = user
-//This time you're getting the reference and not the copy of the same, hence the value in the original will change if u make changes in the 2nd one(user2)
+//This time you're getting the reference NOT the copy of the same
+// the value in the original will change if u make changes in the 2nd one(user2)
 
 user2.email = "anshu@hey.com"
 
