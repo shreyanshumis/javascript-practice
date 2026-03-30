@@ -3,13 +3,15 @@
 //backtics - string interpolation - it's like fstring in python.
 
 let name = "Shrey"
-console.log(`Hey! my name is ${name} and this is my codespace`);
+console.log(`Hey! my name is ${name} and this is my codespace`); //${} <- string interpolation, `` <- backticks
 
-//string as object
 
+//STRING DECLARATION
+//declaring a string as object
+// const gameName = shrey_77 is written as:- 
 const gameName = new String('shrey_77')
-//you can use length property and a lot more using it
-//It's a key value pair of it's index and the character on that index.
+
+//you can use length property and a lot more using it since it is a String object...It's a key value pair of it's index and the character like [0:s, 1:h, 2:r, 3:e..] and so on.
 
 console.log(gameName[1]);
 // console.log(gameName.__proto__); //access objects //depricated feature
