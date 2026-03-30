@@ -37,7 +37,6 @@ console.log(newStringOne.trim()) //removes starting and ending spaces
 
 //======================================
 const url = "https://shrey.com/hey%20shrey";
-
 console.log(url.replace('%20','-'));
 
 //includes
